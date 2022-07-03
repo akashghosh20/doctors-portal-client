@@ -11,21 +11,22 @@ const Services = () => {
         {
             _id: 1,
             name : 'Fluoride Treatment',
-            description: '',
-            img : fluoride  ,
+           description: '',
+           img: fluoride  ,
         },
         {
-            _id: 2,
-            name : 'Cavity Fillingt',
+          _id: 2,
+            name: 'Cavity Treatment',
             description: '',
-            img : cavity  ,
+            img: cavity  ,
         },
         {
             _id: 3,
-            name : ' Teeth Whitening',
+            name : 'Teeth Whitening',
             description: '',
-            img : whitening  ,
-        },
+            img: whitening  ,
+        }
+       
 
     ];
     return (
@@ -37,9 +38,11 @@ const Services = () => {
             <div className="grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-5 px-12">
             {
                  services.map (service =>
-                    <Service>
+                    <Service
                         key = {services._id}
                         service = {service}
+                        >
+                      
                     </Service>)
             }
             </div>
