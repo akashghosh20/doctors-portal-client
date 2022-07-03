@@ -3,6 +3,7 @@ import Service from './Service';
 import fluoride from '../../assets/images/fluoride.png';
 import cavity from '../../assets/images/cavity.png';
 import whitening from '../../assets/images/whitening.png';
+import ServiceThree from './ServiceThree';
 
 const Services = () => {
 
@@ -41,6 +42,9 @@ const Services = () => {
                         service = {service}
                     </Service>)
             }
+            </div>
+            <div className='my-12'>
+                <ServiceThree></ServiceThree>
             </div>
         </div>
       
