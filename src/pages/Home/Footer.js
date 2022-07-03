@@ -3,14 +3,14 @@ import appoinment from '../../assets/images/appointment.png'
 
 const Footer = () => {
     return (
-        <section  className='mt-10'>
+        <section  className=''>
             <footer
-              style={{
+             style={{
 
-                background: `url(${appoinment})`
-      
-              }}
-               class="footer p-10 bg-base-300 text-base-content ">
+              background: `url(${appoinment})`
+    
+            }}
+            class="footer p-10 bg-base-300 text-base-content ">
   <div className='text-white'>
     <span class="footer-title">Services</span> 
     <a class="link link-hover">Branding</a> 

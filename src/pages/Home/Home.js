@@ -1,10 +1,10 @@
 import React from 'react';
 import Banner from './Banner';
-import Footer from './Footer';
 import Info from './Info';
-import MakeApoointment from './MakeApoointment';
 import Services from './Services';
 import Testimonials from './Testimonials';
+import MakeApoointment from './MakeApoointment';
+import Footer from './Footer';
 
 const Home = () => {
     return (
